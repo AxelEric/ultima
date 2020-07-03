@@ -1,0 +1,21 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowUmdGlobalAccess": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "baseUrl": "./",
+        "checkJs": true,
+        "declaration": true,
+        "declarationDir": "app/src/ts/typing",
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es6",
+        "rootDirs": [ ],
+        "paths": {"@js": ["app/src/js/*"],"@ts": ["app/src/ts/*"],"@scripts": ["app/src/scripts/*"},
+            "@interfaces": [
+                "app/interfaces"
+            ],
+			"@interfaces": ["app/interfaces"]
+    }
+}

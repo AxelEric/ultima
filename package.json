@@ -1,0 +1,19 @@
+{
+  "name": "ultima",
+  "version": "1.0.0",
+  "description": "@AxelEric Personnal Module provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelEric/ultima.git"
+  },
+  "author": "AxelEric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AxelEric/ultima/issues"
+  },
+  "homepage": "https://github.com/AxelEric/ultima#readme"
+}

@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+        "strict": false,   /* enable all strict type-checking options */
+		"alwaysStrict": false,
+		"module": "commonjs",
+		"target": "es6",
+		"outDir": "out",
+		"noImplicitAny": false,
+		"noImplicitReturns": false,
+		"lib": ["es6"],
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"rootDir": "./",
+		"baseUrl": ".",
+		"paths": {
+			"@js": ["app/src/js"], "@ts": ["app/ts/*"], "@scripts": ["app/src/scripts/*"],
+			"@interfaces": ["app/interfaces"]
+		},
+        "noUnusedLocals": false /* Report errors on unused locals. */
+	},
+	"exclude": [
+		
+		"*.x.ts", "app/test/**/*", "node_modules/**/*", ".vscode-test"
+	]
+}

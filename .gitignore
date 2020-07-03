@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+desktop.ini
+gitCommands.sh
+.vscode
+docs/
+**/js/**
+tests/
+zzz/
+*.ini
