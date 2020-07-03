@@ -13,13 +13,12 @@
 		"rootDir": "./",
 		"baseUrl": ".",
 		"paths": {
-			"@js": ["app/src/js"], "@ts": ["app/ts/*"], "@scripts": ["app/src/scripts/*"],
-			"@interfaces": ["app/interfaces"]
-		},
+               "@root": ["."]     
+          },
         "noUnusedLocals": false /* Report errors on unused locals. */
 	},
 	"exclude": [
 		
-		"*.x.ts", "app/test/**/*", "node_modules/**/*", ".vscode-test"
+		"*.x.ts", "docs/*", "tests/*", "zzz/*"
 	]
 }

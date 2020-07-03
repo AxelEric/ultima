@@ -17,7 +17,7 @@ export module Ultima {
      export const ColoredsComments =    Extensions._ColoredsComments;
      export const LinesComments    =    Extensions._LinesComments;
      
-     export const ColorProvider    =    Modules._ColorProvider;
+     //export const ColorProvider    =    Modules._ColorProvider;
      export const UltimaColors     =    Modules._UltimaColors;
      export const Parser           =    Modules._Parser;
      export const Types            =    Modules._Types;

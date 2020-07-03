@@ -11,7 +11,9 @@
           import * as vscode from "vscode";
          // import { stream } from "libs/Logger/sources";
           import { stringify } from "querystring";
-          import { ColorTags } from './ColorTags';
+          import { Extensions } from '../../extensions/Extensions';
+import { ColorConfigs } from "Configs/ts/ColorConfigs";
+import { Modules } from "modules/Modules";
          
           export module Parser {
 
@@ -20,7 +22,7 @@
 
      //#region (:y:)                                              | Properties      ─── |
                                     
-           
+        
           var expression: string = "";
           var delimiter: string = "";
           var blockCommentStart: string = "";
@@ -203,7 +205,7 @@
      
      export function setTags() {
 
-          for (let colorTag of ColorTags.colorTags) {
+          for (let colorTag of Modules._UltimaColors.colorTagList ) {
 
                let options: vscode.DecorationRenderOptions;
 

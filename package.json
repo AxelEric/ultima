@@ -1,19 +1,50 @@
 {
-  "name": "ultima",
-  "version": "1.0.0",
-  "description": "@AxelEric Personnal Module provider",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AxelEric/ultima.git"
-  },
-  "author": "AxelEric",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AxelEric/ultima/issues"
-  },
-  "homepage": "https://github.com/AxelEric/ultima#readme"
+     "name": "@axeleric/ultima",
+     "author": {
+          "name": "AxelEric",
+          "email": "axel@axeleric.eu",
+          "url": "https://axeleric.eu"
+     },
+     "version": "1.0.1",
+     "description": "@AxelEric Personnal Module provider",
+     "main": "index.js",
+     "scripts": {
+          "_01-install": "npm install",
+          "_02-audit-fix": "npm audit fix",
+          "_03-audit": "npm audit",
+          "_04-audit-fix-force": "npm audit fix --force"
+     },
+     "engines": {
+          "vscode": "^1.22.0",
+          "node": "12.16.2"
+     },
+     "_moduleAliases": {
+          "@root": [
+               ".*"
+          ],
+          "@Modules": [
+               "app/modules/*"
+          ]
+     },
+     "dependencies": {
+          "@axeleric/ultima": "1.0.1" 
+     },
+          "devDependencies": {
+          "@types/vscode": "1.14.0",
+          "@types/node": "12.12.2",
+          "vscode-test": "1.4.0",
+          "module-alias": "^2.2.2",
+          "typescript": "3.9.6",
+          "vsce": "1.77.0"
+     },
+     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/AxelEric/ultima.git"
+     },
+     "license": "MIT",
+     "bugs": {
+          "url": "https://github.com/AxelEric/ultima/issues"
+     },
+     "homepage": "https://github.com/AxelEric/ultima#readme",
+     "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }

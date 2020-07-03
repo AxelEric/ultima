@@ -1,4 +1,4 @@
-import {Ultima} from '../node_modules/@axeleric/ultima/Ultima'
+import {Ultima} from 'Ultima'
 
 export module App {
 

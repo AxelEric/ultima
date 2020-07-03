@@ -5,7 +5,7 @@ import {Parser} from  './ts/parser';
 
 export module Modules {
 
-     export const _ColorProvider = ColorProvider;
+     //export const _ColorProvider = ColorProvider;
      export const _Types = Types;
      export const _UltimaColors = UltimaColors;
      export const _Parser = Parser;

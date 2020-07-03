@@ -1,4 +1,5 @@
-import * as Modules from '../../modules/Modules'
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // ! ─────────────────────────────────────────────────────────────────────────────────────────────────
 // * ──────────────────────────────────────────────────────────────────────────────────────────────────
 // * :   :    :   :  :  :  : : : ::::::::::  T I M E R  :::::::::: : : :  :  :  :   :   :    :      :
@@ -11,28 +12,27 @@ import * as Modules from '../../modules/Modules'
 // * ───────────────────────────────────────────────────────────────────────────────── Timer ──────────
 // ! ──────────────────────────────────────────────────────────────────────────────────────────────────
 //  ───────────────────────────────────────────────────────────────────────────────────────────────────
-
 /*
 export module Timer  {
-	 
-	export const defaultTrig = typeof Modules.Provider.parser.doParse ;
-	export const defaultInterval: number = 200;
-	export const defaultTimer: NodeJS.Timeout = setInterval( Modules.Provider.parser.doParse , defaultInterval ) 
-	
-	export var Trig = Trig; 
-	export var Interval = 200;
-	export var Timeout: NodeJS.Timeout;
-	export var Timer: NodeJS.Timeout;
-	export const run = ( ( on: boolean ) => { 
-			
-			on
-			
-				?  ( () => { setInterval ( Trig , Interval ) } )
-				
-				:  ( () => { clearInterval ( Timer ) } );
-			}
-		)
-	
+     
+    export const defaultTrig = typeof Modules.Provider.parser.doParse ;
+    export const defaultInterval: number = 200;
+    export const defaultTimer: NodeJS.Timeout = setInterval( Modules.Provider.parser.doParse , defaultInterval )
+    
+    export var Trig = Trig;
+    export var Interval = 200;
+    export var Timeout: NodeJS.Timeout;
+    export var Timer: NodeJS.Timeout;
+    export const run = ( ( on: boolean ) => {
+            
+            on
+            
+                ?  ( () => { setInterval ( Trig , Interval ) } )
+                
+                :  ( () => { clearInterval ( Timer ) } );
+            }
+        )
+    
 
 }*/
 //  ───────────────────────────────────────────────────────────────────────────────────────────────────
@@ -46,3 +46,4 @@ export module Timer  {
 // # :   :   :   :  :  :  : : : :::::::::: A X E L E R I C :::::::::: : : :  :  :  :   :   :    :     :
 // * ──────────────────────────────────────────────────────────────────────────────────────────────────
 // # ───────────────────────────────────── axel@axeleric.eu ───────────────────────────────────────────
+//# sourceMappingURL=Timer.js.map
