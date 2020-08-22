@@ -30,6 +30,7 @@
           "@axeleric/ultima": "1.0.1" 
      },
           "devDependencies": {
+          "lodash": "4.17.19",
           "@types/vscode": "1.14.0",
           "@types/node": "12.12.2",
           "vscode-test": "1.4.0",
